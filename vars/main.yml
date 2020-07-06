@@ -1,0 +1,19 @@
+---
+# vars file for ansible-role-nginx_controller_user_role
+
+# nginx_controller_integration:
+#   metadata:
+#     name:  # the name of the data integration
+#     displayName:   # a friendly display name for the data integration (spaces and special characters allowed)
+#     description:  # a description of the data integration
+#     tags:   # an array of tags
+#     - tagOne
+#     - tagTwo
+#   desiredState:
+#     type: "GENERIC_INTEGRATION"  # [GENERIC_INTEGRATION, AWS_INTEGRATION] the type of integration being defined
+#     endpointUri: "https://<>"  # the URI of the target API
+#     credential:   # the credential necessary to interface with the endpoint
+#       type: "API_KEY"
+#       apiKey: "<some guid string>"
+
+
