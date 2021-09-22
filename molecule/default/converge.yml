@@ -1,0 +1,27 @@
+---
+- name: Converge
+  hosts: controllers
+
+  vars:
+    nginx_controller_validate_certs: false
+    nginx_controller_fqdn: mock-server.molecule-test:1080
+    nginx_controller_auth_token: "ABC123"
+    nginx_controller_integration:
+      metadata:
+        name: "generic-forwarder"
+        displayName: "generic-forwarder (HTTP)"
+        description: "a description of the data integration"
+        tags:
+          - tagOne
+          - tagTwo
+      desiredState:
+        credential:
+          apiKey: "12345"
+          type: "API_KEY"
+        endpointUri: "http://10.1.1.27:8888"
+        type: "GENERIC_INTEGRATION"
+
+  tasks:
+    - name: Call Integration Role
+      include_role:
+        name: ansible-role-nginx_controller_integration

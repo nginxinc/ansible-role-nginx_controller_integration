@@ -1,5 +1,5 @@
 ---
-# vars file for ansible-role-nginx_controller_user_role
+# vars file for ansible-role-nginx_controller_integration_role
 
 # nginx_controller_integration:
 #   metadata:
@@ -15,5 +15,3 @@
 #     credential:   # the credential necessary to interface with the endpoint
 #       type: "API_KEY"
 #       apiKey: "<some guid string>"
-
-
