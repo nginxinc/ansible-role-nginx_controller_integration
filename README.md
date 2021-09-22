@@ -57,8 +57,8 @@ To use this role you can create a playbook such as the following (let's name it 
             displayName:   # a friendly display name for the data integration (spaces and special characters allowed)
             description:  # a description of the data integration
             tags:   # an array of tags
-            - tagOne
-            - tagTwo
+              - tagOne
+              - tagTwo
           desiredState:
             type: "GENERIC_INTEGRATION"  # [GENERIC_INTEGRATION, AWS_INTEGRATION] the type of integration being defined
             endpointUri: "https://<>"  # the URI of the target API
