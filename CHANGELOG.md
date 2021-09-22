@@ -6,7 +6,3 @@ ENHANCEMENTS:
 
 *   Implement GitHub Actions CI/CD workflow for repo.
 *   Add Molecule tests for role.
-
-BUG FIXES:
-
-*   Fix #1
