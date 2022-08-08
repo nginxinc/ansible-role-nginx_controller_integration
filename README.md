@@ -1,6 +1,8 @@
 NGINX Controller Integration Role
 ==========================
 
+# This repository has been archived. There will likely be no further development on the project and security vulnerabilities may be unaddressed.
+
 Manage integration settings with NGINX Controller.
 Integrations describe an endpoint (URI) and credential that NGINX Controller uses to interface with an external system.
 
